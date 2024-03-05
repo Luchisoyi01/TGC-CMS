@@ -4,5 +4,5 @@ It is a church management system which is very helpfull in managing simple relig
 3. Finacial management
 4. Event management
 
-   The system enable esasy, well organized and effeciet way of managing religious organization operations
+The system enable esasy, well organized and effeciet way of managing religious organization operations
 
