@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+  margin: 0;
+  background-color: #7b7b82;
+}
+h3{
+  margin-left: 5px;
+}
+a{
+  text-decoration: none;
+}
+.header{
+  background: url('../images/church.jpg'); 
+  background-size:cover; 
+  background-color: white;
+  padding: 0px 10px;
+  display: flex;
+  height: 60vh;  
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+.login_in{
+  border: none;
+  font-weight: 600;
+  padding: 15px 50px;
+  background-color: #43434a;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.login_in:hover{
+  background-color: #f6f6f9;
+  color: #43434a;
+  border-width: 2px;
+  border-color: #43434a;
+  opacity: 0.6;
+  transform: rotate(3deg);
+}
+.logo{
+  border-radius: 50%;
+  height: 30vh;
+  margin-right: 10px;
+}
+.logo:hover{
+  transform: rotate3d(50, 1, 50, 10deg);
+}
+.Grace{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  align-content:space-between ;
+}
+.Grace h2{
+  font-size: 50px;
+  color: #43434a;
+  cursor: pointer;
+  text-transform: uppercase;  
+}
+h2:hover{
+  color: black;
+}
+.log{
+  display: flex; 
+  align-items: center;
+}
+.mark{
+  display: flex;
+  align-items: center;
+}
+.history{
+  background-color: #43434a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.history h2{
+  margin: 5px 0px;
+  text-transform: uppercase;
+}
+.story{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-weight: 500;
+  margin: 10px 0px;
+  font-size: 24px;  
+  text-align: center;
+}
+.testimony{
+  display: flex;
+  align-self: flex-start;
+  text-align: center; 
+  align-content: space-between; 
+  padding-bottom: 30px;
+}
+.mony{
+  flex: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 20px;
+  width: 300px;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.test{
+  text-align: center;
+  margin: 10px 0px;
+}
+.hqoutes{
+  text-align: center;
+  padding-top: 10px;
+}
+span{
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.mony:hover{
+  background-color: #43434a;
+  color: white;
+}
+.qoutes{
+  background-color:#43434a ;  
+  padding-bottom: 20px;
+}

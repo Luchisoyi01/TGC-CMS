@@ -1,0 +1,41 @@
+body{
+  padding: 10px;      
+}
+h4{
+  font-size: small;
+}
+a{
+  text-decoration: none;
+}
+.content{
+  display: flex;      
+}
+.grace{
+  display: flex;
+  position: absolute;
+  left: 10px;
+  width: 12%;      
+}
+.church{
+  display: flex;
+  flex: 1fr;
+  position: absolute;
+  left: 100px;
+  right: 0px;
+}
+.containe{      
+  position: absolute;
+  left: 0em;
+  position: absolute;
+  left: 8%;
+  right: 10%;
+}
+.siderbar{
+  display: flex;
+  width: 100px;
+}
+.nav{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
